@@ -1,0 +1,122 @@
+/* *{
+    border: solid 1px red;
+} */
+
+
+.myFont{
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+/* nav property */
+.TextDissable{
+    color: rgb(114, 97, 97);
+}
+
+.toggleColor{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fa-bars{
+    color: black;
+}
+
+.myNavBg{
+    box-shadow: rgb(90, 87, 87) 0 5px 5px;
+    backdrop-filter: blur(6px);
+    z-index: 10;
+}
+
+.nav-item{
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    font-weight: bolder;
+}
+
+.nav-item:hover{
+    background-color: #b6fffa84;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.offcanvasBg{
+    background-color: rgba(0, 34, 112, 1);
+}
+
+/* button property */
+.myBtn{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.myBtn:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 34, 112, 1);
+    color: white;
+}
+
+.otherBtn{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 34, 112, 1);
+    border-radius: 12px;
+    transition: 0.5s ease-in-out;
+}
+
+.otherBtn:hover{
+    color: white;
+    background-color: hsl(222, 100%, 42%);
+}
+
+/* card property */
+.card {
+    width: 75%; 
+    margin: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+
+/* font awesome property */
+.fa-heart{
+    color: red;
+}
+
+.fa-location-arrow{
+    font-size: 40px;
+}
+
+.fa-location-crosshairs{
+    font-size: 40px;
+}
+
+/* footer property */
+footer a:hover {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+.footer-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #ffcc00;
+}
