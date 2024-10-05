@@ -1,0 +1,2 @@
+NAMA : Wilda Amanda Aquari
+NIM : 202210370311004
